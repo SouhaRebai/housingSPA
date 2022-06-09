@@ -1,12 +1,26 @@
 <div class="row">
-    <div class="shadow-lg col-sm-5">
-        <div class="card">
-            <img class="resize" src="assets/images/estern_building.jpg" alt="">
-            <div class="card-body p-2">
-                <h2>{{Property.name}}</h2>
-                <h3>{{Property.type}}</h3>
-                <h3>{{Property.price}}$ </h3>
+    <div class="card shadow-lg">
+        <div class="animate">
+            <div class="card-img-wrapper">
+                <img class="resize" src="assets/images/{{property.image}}" alt="">
+                <ul class="list-inline text-center member-icons animate">
+                    <li class="list-inline-item">
+                        <button class="btn btn-primary">
+                            A
+                        </button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button class="btn btn-primary">
+                            B
+                        </button>
+                    </li>
+                </ul>
             </div>
+        </div>
+        <div class="card-body p-2">
+            <h2 class="name">{{property.name}}</h2>
+            <h3>{{property.type}}</h3>
+            <h3>{{property.price}}$ </h3>
         </div>
     </div>
 </div>
