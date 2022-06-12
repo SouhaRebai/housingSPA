@@ -1,10 +1,27 @@
 .card {
-    min-height: 400px;
+    height: 400px;
 }
 
-.card-body h1 {
+img {
+    height: 250px;
+}
+
+.card-body .text {
+    white-space: nowrap;
     font-family: fantasy;
+    overflow: hidden;
+}
+
+.card-body .name {
     color: #0069d9;
+}
+
+.card-body .type {
+    color: #6f99c5;
+}
+
+.card-body .price {
+    color: #a5a5a5;
 }
 
 .font-highlight {
@@ -15,6 +32,8 @@
 .card-img-wrapper {
     overflow: hidden;
     position: relative;
+    height: 250px;
+    margin-top: 10px;
 }
 
 .card:hover img {
